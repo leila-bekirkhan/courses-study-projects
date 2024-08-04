@@ -51,9 +51,56 @@ img {
 }
 
 /* SPECIAL FEATURE */
-/* .feature__card__icon */
+/* .feature__card__icon {
+
+} */
 
 .feature__card__title {
 	font-size: 16px;
 	margin-bottom: 16px;
+}
+
+/* .feature__card__text {
+} */
+
+/* TESTIMONIALS */
+.testimonial__box {
+	grid-column: 2 / -1;
+	align-self: center;
+}
+
+.testimonial__box .section__title,
+.testimonial__quote {
+	margin-bottom: 24px;
+}
+
+.testimonial__quote {
+	font-style: italic;
+}
+
+/* BESTSELLERS */
+.best__card__content {
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px
+}
+
+.best__card__list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px
+}
+
+/* .best__card__list__icon {
+
+} */
+
+.best__card__buy {
+	display: flex;
+	justify-content: space-between;
+}
+
+.buy__price {
+	font-weight: bold;
 }
