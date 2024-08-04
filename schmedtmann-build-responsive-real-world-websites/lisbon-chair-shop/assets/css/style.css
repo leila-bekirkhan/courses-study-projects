@@ -18,12 +18,13 @@
 	text-decoration: none;
 	font-style: normal;
 	list-style: none;
+	scroll-behavior: smooth;
 }
 
 body {
 	font-family: "Inter", sans-serif;
+	font-optical-sizing: none;
 	padding: 48px;
-	scroll-behavior: smooth;
 }
 
 img {
@@ -39,6 +40,11 @@ img {
 .section,
 .section__title {
 	margin-bottom: 48px;
+}
+
+.section__title {
+	font-size: 36px;
+	letter-spacing: -0.5px;
 }
 
 .grid-3-cols {
@@ -63,18 +69,31 @@ img {
  margin-bottom: 24px;
 }
 
+.header__info__title {
+	font-size: 44px;
+	line-height: 1.1;
+	letter-spacing: -1px;
+}
+
+.header__info__text {
+	font-size: 18px;
+	line-height: 1.6;
+}
+
 /* SPECIAL FEATURE */
 /* .feature__card__icon {
 
 } */
 
 .feature__card__title {
-	font-size: 16px;
+	font-size: 20px;
 	margin-bottom: 16px;
 }
 
-/* .feature__card__text {
-} */
+.feature__card__text {
+	font-size: 18px;
+	line-height: 1.7;
+}
 
 /* TESTIMONIALS */
 .testimonial__box {
@@ -87,16 +106,26 @@ img {
 	margin-bottom: 24px;
 }
 
+.testimonial__box .section__title {
+	font-size: 24px;
+}
+
 .testimonial__quote {
+	font-size: 18px;
 	font-style: italic;
+	line-height: 1.7;
 }
 
 /* BESTSELLERS */
 .best__card__content {
-	padding: 24px;
+	padding: 32px;
 	display: flex;
 	flex-direction: column;
 	gap: 24px
+}
+
+.best__card__title {
+	font-size: 20px;
 }
 
 .best__card__list {
@@ -112,8 +141,14 @@ img {
 .best__card__buy {
 	display: flex;
 	justify-content: space-between;
+	font-size: 20px;
 }
 
 .buy__price {
 	font-weight: bold;
+}
+
+/* FOOTER */
+.footer__info {
+	font-size: 14px;
 }
