@@ -1,0 +1,106 @@
+/* GENERAL */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-style: normal;
+	list-style: none;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 48px;
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header,
+.section,
+.section__title {
+	margin-bottom: 48px;
+}
+
+.grid-3-cols {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 80px;
+}
+
+/* HEADER */
+.header {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 80px;
+}
+
+.header__info {
+	align-self: center;
+}
+
+.header__info__title,
+.header__info__text {
+ margin-bottom: 24px;
+}
+
+/* SPECIAL FEATURE */
+/* .feature__card__icon {
+
+} */
+
+.feature__card__title {
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+/* .feature__card__text {
+} */
+
+/* TESTIMONIALS */
+.testimonial__box {
+	grid-column: 2 / -1;
+	align-self: center;
+}
+
+.testimonial__box .section__title,
+.testimonial__quote {
+	margin-bottom: 24px;
+}
+
+.testimonial__quote {
+	font-style: italic;
+}
+
+/* BESTSELLERS */
+.best__card__content {
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px
+}
+
+.best__card__list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px
+}
+
+/* .best__card__list__icon {
+
+} */
+
+.best__card__buy {
+	display: flex;
+	justify-content: space-between;
+}
+
+.buy__price {
+	font-weight: bold;
+}
