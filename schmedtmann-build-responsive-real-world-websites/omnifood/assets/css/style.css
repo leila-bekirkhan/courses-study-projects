@@ -1,4 +1,3 @@
-/* GENERAL */
 /* HEADER */
 .header {
  display: flex;
@@ -101,6 +100,9 @@
 .delivered-text span {
 	color: #cf711f;
 }
+
+/* FEATURED IN */
+
 
 /* HOW IT WORKS */
 .section-how {
