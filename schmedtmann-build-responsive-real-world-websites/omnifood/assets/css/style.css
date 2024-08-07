@@ -1,3 +1,4 @@
+/* GENERAL */
 @font-face {
 	font-family: "Rubik";
 	src: url(../fonts/Rubik-VariableFont_wght.ttf) format('truetype-variations');
@@ -33,6 +34,16 @@ body {
 	font-optical-sizing: none;
 	line-height: 1;
 	color: #555;
+}
+
+/* REUSABLE */
+.heading-primary {
+	font-size: 5.2rem;
+	font-weight: 700;
+	line-height: 1.05;
+	letter-spacing: -1.5px;
+	color: #333;
+	margin-bottom: 3.2rem;
 }
 
 .btn:link,
@@ -74,27 +85,68 @@ body {
 	margin-right: 1.6rem;
 }
 
+/* HEADER */
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #fdf2e9;
+ height: 9.6rem;
+ padding: 0 4.8rem;
+}
+
+.logo {
+	height: 2.2rem;
+}
+
+.main-nav-list {
+	display: flex;
+	gap: 3.2rem;
+	align-items: center;
+	color: #333;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+	display: inline-block;
+	color: #333;
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+	color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+	color: #fff;
+	padding: 1.2rem 2.4rem;
+	border: none;
+	border-radius: 9px;
+	background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+	background-color: #cf711f;
+}
+
+/* HERO */
 .section-hero {
 	background-color: #fdf2e9;
-	padding: 9.6rem 0;
+	padding: 4.8rem 0 9.6rem;
 }
 
 .hero {
 	max-width: 130rem;
 	margin: 0 auto;
+	padding: 0 3.2rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 9.6rem;
 	align-items: center;
-}
-
-.heading-primary {
-	font-size: 5.2rem;
-	font-weight: 700;
-	line-height: 1.05;
-	letter-spacing: -1.5px;
-	color: #333;
-	margin-bottom: 3.2rem;
 }
 
 .hero-desc {
