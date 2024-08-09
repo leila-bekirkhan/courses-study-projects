@@ -36,6 +36,10 @@ body {
   color: #555;
 }
 
+strong {
+  font-weight: 500;
+}
+
 /* REUSABLE */
 .container {
   max-width: 120rem;
