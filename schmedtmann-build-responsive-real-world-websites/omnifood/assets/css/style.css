@@ -189,6 +189,12 @@
 	overflow: hidden;
 }
 
+.meal:hover {
+	transform: translateY(-1.2rem);
+	transition: all 0.4s ease;
+	box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
 .meal-img {
 	width: 100%;
 }
@@ -269,3 +275,9 @@
 	height: 3rem;
 	color: #e67e22;
 }
+
+.all-recipes {
+	font-size: 1.8rem;
+	text-align: center;
+}
+
