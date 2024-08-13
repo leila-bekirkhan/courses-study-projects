@@ -477,7 +477,39 @@
 .cta-text {
 	font-size: 1.8rem;
 	line-height: 1.8;
+	margin-bottom: 4.8rem;
 }
+
+.cta-form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2.4rem 3.2rem;
+}
+
+.cta label {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin-bottom: 1.2rem;
+}
+
+.cta input {
+	font-family: inherit;
+	font-size: 1.8rem;
+	background-color: #fdf2e9;
+	border: none;
+	border-radius: 9px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
+	width: 100%;
+	padding: 1.2rem;
+}
+
+.cta input::placeholder {
+	color: #aaa;
+}
+
+/* .cta select
+.cta button */
 
 .cta-img-box {
 	background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url(../img/eating.jpg);
