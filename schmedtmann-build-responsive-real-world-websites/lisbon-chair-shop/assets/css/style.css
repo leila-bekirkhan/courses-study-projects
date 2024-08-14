@@ -119,9 +119,12 @@ img {
 }
 
 /* SPECIAL FEATURE */
-/* .feature__card__icon {
-
-} */
+.feature__card__icon {
+	stroke: var(--accent-color-first);
+	width: 32px;
+	height: 32px;
+	margin-bottom: 24px;
+}
 
 .feature__card__title {
 	font-size: 20px;
@@ -182,9 +185,11 @@ img {
 	gap: 24px
 }
 
-/* .best__card__list__icon {
-
-} */
+.best__card__icon {
+	stroke: #087f5b;
+	width: 24px;
+	height: 24px;
+}
 
 .best__card__buy {
 	display: flex;
