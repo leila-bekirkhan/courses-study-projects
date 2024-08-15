@@ -93,6 +93,10 @@ img {
 	padding: 8px 12px;
 }
 
+img {
+	border-radius: 12px;
+}
+
 
 /* HEADER */
 .header {
@@ -141,6 +145,7 @@ img {
 	color: var(--secondary-color);
 	background-color: var(--accent-color-first);
 	padding: 24px;
+	border-radius: 12px;
 }
 
 .testimonial__box {
@@ -170,13 +175,19 @@ img {
 /* BESTSELLERS */
 .best__card {
 	box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.07);
+	border-radius: 12px;
+}
+
+.best__img {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
 }
 
 .best__card__content {
 	padding: 32px;
 	display: flex;
 	flex-direction: column;
-	gap: 24px
+	gap: 24px;
 }
 
 .best__card__title {
