@@ -36,7 +36,7 @@ body {
 	font-family: var(--main-font);
 	font-optical-sizing: none;
 	color: var(--main-color);
-	padding: 48px;
+	padding: 64px 48px 48px;
 	border-bottom: 8px solid var(--accent-color-first);
 }
 
@@ -50,14 +50,14 @@ img {
 }
 
 .header,
-.section,
-.section__title {
-	margin-bottom: 48px;
+.section {
+	margin-bottom: 96px;
 }
 
 .section__title {
 	font-size: 36px;
 	letter-spacing: -0.5px;
+	margin-bottom: 48px;
 }
 
 .grid-3-cols {
@@ -93,6 +93,10 @@ img {
 	padding: 8px 12px;
 }
 
+img {
+	border-radius: 12px;
+}
+
 
 /* HEADER */
 .header {
@@ -109,7 +113,7 @@ img {
 	font-size: 44px;
 	line-height: 1.1;
 	letter-spacing: -1px;
-	margin-bottom: 24px;
+	margin-bottom: 32px;
 }
 
 .header__info__text {
@@ -141,6 +145,7 @@ img {
 	color: var(--secondary-color);
 	background-color: var(--accent-color-first);
 	padding: 24px;
+	border-radius: 12px;
 }
 
 .testimonial__box {
@@ -161,6 +166,7 @@ img {
 	font-size: 18px;
 	font-style: italic;
 	line-height: 1.7;
+	color: #e6fcf5;
 }
 
 .testimonial__author {
@@ -168,21 +174,38 @@ img {
 }
 
 /* BESTSELLERS */
+.best__card {
+	box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.07);
+	border-radius: 12px;
+}
+
+.best__img {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
 .best__card__content {
 	padding: 32px;
 	display: flex;
 	flex-direction: column;
-	gap: 24px
 }
 
 .best__card__title {
 	font-size: 20px;
+	margin-bottom: 24px;
 }
 
 .best__card__list {
 	display: flex;
 	flex-direction: column;
-	gap: 24px
+	gap: 16px;
+	margin-bottom: 48px;
+}
+
+.best__card__list li {
+	display: flex;
+	gap: 12px;
+	align-items: center;
 }
 
 .best__card__icon {
