@@ -230,3 +230,14 @@ img {
 	font-size: 14px;
 	color: var(--third-color);
 }
+
+.footer__info cite a:link,
+.footer__info cite a:visited {
+	color: var(--accent-color-second);
+	font-weight: 500;
+}
+
+.footer__info cite a:hover,
+.footer__info cite a:active {
+	color: var(--accent-color-first);
+}
