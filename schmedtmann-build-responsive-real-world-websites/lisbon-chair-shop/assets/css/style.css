@@ -168,6 +168,10 @@ img {
 }
 
 /* BESTSELLERS */
+.best__card {
+	box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
 .best__card__content {
 	padding: 32px;
 	display: flex;
