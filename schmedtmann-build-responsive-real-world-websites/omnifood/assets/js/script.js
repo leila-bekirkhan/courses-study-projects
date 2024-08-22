@@ -10,7 +10,7 @@ btnNavEl.addEventListener('click', function () {
   headerEl.classList.toggle('nav-open')
 })
 
-//Smooth scrolling animation
+// Smooth scrolling animation
 const allLinks = document.querySelectorAll('a:link');
 allLinks.forEach(function (link) {
   link.addEventListener('click', function (e) {
@@ -35,3 +35,22 @@ allLinks.forEach(function (link) {
       headerEl.classList.toggle('nav-open');
   })
 })
+
+// Sticky Navigation Bar
+const sectionHeroEl = document.querySelector('.section-hero');
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    if (ent.isIntersecting === false) {
+      document.body.classList.add('sticky');
+    }
+    if (ent.isIntersecting === true) {
+      document.body.classList.remove('sticky');
+    }
+  }, {
+  // in the viewport
+  root: null,
+  threshold: 0,
+  rootMargin: '-80px',
+});
+obs.observe(sectionHeroEl);
