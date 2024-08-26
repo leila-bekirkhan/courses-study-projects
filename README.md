@@ -6,3 +6,7 @@
    CSS: rem units, flexbox, grid, transform; @media queries;  
    JS - mobile nav bar; current year updating; smooth scrolling; sticky nav bar; flexbox gap in Safari;  
 3. [Lisbon Chair Shop (simple page)](https://leila-bekirkhan.github.io/courses-study-projects/schmedtmann-build-responsive-real-world-websites/lisbon-chair-shop)
+
+### Colt Steele \| Udemy
+#### [The HTML & CSS Bootcamp 2024](https://www.udemy.com/course/html-and-css-bootcamp/)
+1. [Cost Estimator (component page)](https://leila-bekirkhan.github.io/courses-study-projects/steele-colt-html-css-bootcamp/cost-estimator)
