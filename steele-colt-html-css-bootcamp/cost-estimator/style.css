@@ -113,3 +113,31 @@ h1 {
 	border-radius: 20px;
 	padding: 4px 16px;
 }
+
+.sessions-card {
+	background-color: rgb(250, 247, 255);
+	text-align: center;
+	padding: 32px;
+	width: 50%;
+	text-transform: uppercase;
+	margin: 16px 0;
+	border-radius: 10px;
+}
+
+.sessions-card p {
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(44, 44, 44);
+	margin-bottom: 0;
+}
+
+.sessions-card .number {
+	font-size: 54px;
+	color: rgb(83, 49, 156);
+	margin: 0;
+}
+
+.description {
+	line-height: 2;
+	margin: 16px 0 32px 0;
+}
