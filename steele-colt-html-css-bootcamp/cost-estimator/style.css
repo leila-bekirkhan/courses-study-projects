@@ -129,7 +129,7 @@ h1 {
 	font-size: 12px;
 	font-weight: bold;
 	color: rgb(44, 44, 44);
-	margin-bottom: 0;
+	margin: 12px;
 }
 
 .sessions-card .number {
@@ -146,6 +146,8 @@ h1 {
 .slider {
 	width: 100%;
 	position: relative;
+	padding-bottom: 16px;
+	margin-bottom: 16px;
 }
 
 .slider .bar {
@@ -182,7 +184,7 @@ h1 {
 
 .slider .point:hover {
 	cursor: pointer;
-	transform: scale(1.3);
+	transform: scale(1.15);
 }
 
 .slider .scale ul {
@@ -208,6 +210,12 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	color: rgb(83, 49, 156);
+	transition: 0.15s transform ease;
+	position: relative;
+}
+
+.card:hover {
+	transform: translateY(-8px);
 }
 
 .card .top-section {
@@ -219,6 +227,17 @@ h1 {
 	margin: 4px 0;
 }
 
+.card .save-header {
+	width: 100%;
+	color: #fff;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(53, 10, 74, 1) 36%, rgba(83, 49, 156, 1) 100%);
+	position: absolute;
+	top: -24px;
+	left: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
 .card .price {
 	font-size: 42px;
 	color: rgb(44, 44, 44);
@@ -228,4 +247,19 @@ h1 {
 	width: 30%;
 	border: 1px solid rgb(210, 210, 210);
 	border-radius: 2px;
+}
+
+.card button {
+	background-color: rgb(83, 49, 156);
+	color: #fff;
+	font-weight: bold;
+	padding: 16px;
+	margin: 8px 0;
+	border-radius: 10px;
+	transition: 0.15s transform ease;
+}
+
+.card button:hover {
+	cursor: pointer;
+	transform: scale(1.05);
 }
